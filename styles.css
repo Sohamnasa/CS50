@@ -1,0 +1,155 @@
+/*Background*/
+body, html {
+ height: 100%;
+}
+
+.bg {
+ background-image: url("Stadium.jpg");
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.bgpodcast{
+ background-image: url("orangebg.jpg");
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.bgblog{
+ background-image: url("blogbg.jpg");
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.bghost{
+ background-image: url("hostbg.jpg");
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.bgcontact{
+ background-image: url("red.jpg");
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.brush{
+ background-image: url("brush.png");
+ width: 30%;
+ height: 30%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+/*index.html*/
+.top_right{
+ position: absolute;
+ top: 20px;
+ font-family: 'Anurati';
+ font-size: 20px;
+}
+
+@font-face {
+ font-family: Anurati;
+ src: url(Anurati-Regular.otf);
+}
+
+.title{
+ position: absolute;
+ top: 200px;
+ left: 43%;
+ color: #cccccc;
+ font-family: 'Audiowide';
+}
+
+.sub_title{
+ position: absolute;
+ top: 275px;
+ left: 41%;
+ color: #b30000;
+ font-family: 'Knewave';
+}
+
+/*headings*/
+.podcast_heading{
+ position: absolute;
+ top: 30px;
+ left: 73%;
+ font-family: 'Bangers';
+}
+
+.host_heading{
+ position: absolute;
+ top: 30px;
+ left: 85%;
+ font-family: 'Bangers';
+}
+
+.blog_heading{
+ position: absolute;
+ top: 30px;
+ left: 80%;
+ font-family: 'Bangers';
+}
+
+.contact_heading{
+ position: absolute;
+ top: 30px;
+ left: 93%;
+ font-family: 'Bangers';
+}
+
+/*universal formalities*/
+.htitle{
+ position: absolute;
+ color : black;
+ top: 50px;
+ font-size: 35px;
+ left: 43%;
+ font-family: 'Cherry Cream Soda';
+}
+
+.column{
+ float: left;
+ width: 33.33%;
+ padding: 5px;
+}
+
+.row::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+
+/*podcast.html*/
+.podcast{
+ position: absolute;
+ top: 100px;
+ font-size: 35px;
+ left: -110%;
+ border: 5px;
+ border-style: groove;
+ border-color: white;
+}
+
+/*blog.html*/
+.center{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ position: relative;
+ top: 200px;
+}
